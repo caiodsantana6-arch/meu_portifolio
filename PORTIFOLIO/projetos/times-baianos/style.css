@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#container {
+  min-height: 100vh;
+  padding: 40px;
+  transition: background-color 0.4s, color 0.4s;
+  position: center;
+}
+
+.botoes {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  transition: width 0.3s;
+}
